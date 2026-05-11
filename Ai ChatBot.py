@@ -1,6 +1,5 @@
 #Using comments to understand the logic
 
-
 #Importing.....
 
 import os
@@ -45,13 +44,11 @@ while True:
 
     #To avoid that removing (*) from the final output we recived from gemini
     
-    final =  res.text.replace("*","")
+    final = res.text.replace("*","")
 
     #Printing Final Output
     print(final)
 
-
-
 #Thats it
     
-#We can asalo add chat history , error handling if api or model crashes ,exit options etc. 
+#We can also add chat history, error handling if api or model crashes, exit options etc.
