@@ -11,13 +11,15 @@ while True:
 4. Search Student
 5. Exit""")
     try:
-        choose=int(input("Enter your choice :"))
+        choose=int(input("Enter your choice : "))
         print("----------------------------------")
         if choose==1:
-            name= input("Enter name of the student:")
+            print("----------------------------------")
+            
+            name= input("Enter name of the student: ")
             marks_individual = []
             for l in subjects:
-                marks=int(input(f"Enter Marks of {l}:"))
+                marks=int(input(f"Enter Marks of {l}: "))
                 if marks<0 or marks>100:
                     print("Invalid Input . Please Enter marks under 0-100")
                 else:
