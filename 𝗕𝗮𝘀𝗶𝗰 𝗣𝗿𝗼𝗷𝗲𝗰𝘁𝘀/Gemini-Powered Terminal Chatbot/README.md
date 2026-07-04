@@ -1,4 +1,4 @@
-# 🤖 AI ChatBot
+# 🤖 Gemini-Powered Terminal Chatbot
 
 A simple command-line AI chatbot built with Google's Gemini API. Users can ask questions and receive short, clear, and informative responses directly in the terminal.
 
