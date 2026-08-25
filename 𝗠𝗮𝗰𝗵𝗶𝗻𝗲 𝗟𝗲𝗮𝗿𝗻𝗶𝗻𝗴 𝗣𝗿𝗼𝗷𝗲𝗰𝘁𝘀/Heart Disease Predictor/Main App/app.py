@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-# Load saved model, scaler, and expected columns
 model = joblib.load(r"C:\Users\shobh\Downloads\AI and DATA SCIENCE\𝗠𝗟 𝗣𝗿𝗼𝗷𝗲𝗰𝘁𝘀\Heart Disease Predictor\Models\knn_heart_model.pkl")
 scaler = joblib.load(r"C:\Users\shobh\Downloads\AI and DATA SCIENCE\𝗠𝗟 𝗣𝗿𝗼𝗷𝗲𝗰𝘁𝘀\Heart Disease Predictor\Models\heart_scaler.pkl")
 expected_columns = joblib.load(r"C:\Users\shobh\Downloads\AI and DATA SCIENCE\𝗠𝗟 𝗣𝗿𝗼𝗷𝗲𝗰𝘁𝘀\Heart Disease Predictor\Models\heart_columns.pkl")
