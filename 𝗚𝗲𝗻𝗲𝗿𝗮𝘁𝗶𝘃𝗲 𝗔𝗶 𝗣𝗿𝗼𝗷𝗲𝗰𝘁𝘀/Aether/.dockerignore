@@ -1,0 +1,64 @@
+# ==========================================
+# AETHER — Docker Build Context
+# Keep only files required to build and run
+# ==========================================
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Git
+.git/
+.gitignore
+.github/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Development-only folders
+pseudo_codes/
+src/
+tests/
+evaluation/
+preview/
+
+# Documentation (not required at runtime)
+README.md
+CONTRIBUTING.md
+LICENSE
+
+# Test and evaluation artifacts
+test_results.md
+*.log
+*.tmp
+
+# Large demo / preview media
+*.mp4
+*.mov
+*.avi
+*.webm
+
+# Not needed in the application container
+notebooks/
+*.ipynb
+coverage/
+htmlcov/
